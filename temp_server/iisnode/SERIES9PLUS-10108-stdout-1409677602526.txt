@@ -1,5 +1,0 @@
-Express server listening on port \\.\pipe\399fd8a6-7fa7-4d46-8cbd-f69fc96e1001
-serial opened.
-DB connection is made properly.
-temperature is changed from 0 to 29
-[90mGET / [31m500 [90m1181ms[0m

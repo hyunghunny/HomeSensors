@@ -1,3 +1,0 @@
-Express server listening on port \\.\pipe\702e7551-3652-4c03-8f6b-0ad5e0489c4f
-serial opened.
-DB connection is made properly.
