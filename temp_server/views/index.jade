@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div(data-role='page', data-theme='a')
+    div(data-role='header')
+        h1= title
+    div(data-role='main', class='ui-content')
+        img(src="images/DaddysLAB_logo0412_final.png", width='74', height='74')
+        h2= greeting
+        p click the button to see the temperature trend of your room. It will be shown in a min.
+            button(class="ui-btn ui-corner-all", onclick="requestData();")
+                p click me
+            div(id="chart_div", style="width: device-width; height: device-height;")
+            
+    div(data-role='footer')
+        p Copyleft by hyunghun Cho. This project is presented for Daddy's Lab.

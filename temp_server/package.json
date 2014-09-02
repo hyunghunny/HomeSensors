@@ -1,0 +1,27 @@
+{
+  "name": "HomeTemperatureSensingSite",
+  "version": "0.1.0",
+  "author": "Hyunghun Cho <hyunghunny@gmail.com>",
+  "description": "A simple node application for sensing temperatures with Arduino",
+  "contributors": [
+    {
+      "name": "Daddy's Lab",
+      "email": "info@daddyslab.com"
+    }
+  ],
+  "main": "./server.js",
+  "keywords": [
+    "temperature",
+    "IoT",
+    "web server"
+  ],
+  "dependencies": {
+    "jade": "*",
+    "express": "~3.1.0"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6.14"
+  }
+}

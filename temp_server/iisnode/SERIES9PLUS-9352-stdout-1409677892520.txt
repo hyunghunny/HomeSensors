@@ -1,0 +1,8 @@
+Express server listening on port \\.\pipe\2fda7d87-8e46-4f79-b379-66f999de0571
+serial opened.
+DB connection is made properly.
+[90mGET / [32m200 [90m1391ms - 1.17kb[0m
+temperature is changed from 0 to 29
+[90mGET /js/gchart.js [33m404 [90m58ms[0m
+[90mGET / [32m200 [90m171ms - 1.16kb[0m
+[90mGET /js/gchart.js [33m404 [90m8ms[0m

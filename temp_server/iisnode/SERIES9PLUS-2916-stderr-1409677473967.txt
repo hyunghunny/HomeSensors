@@ -1,0 +1,20 @@
+Error: C:\workspace\IoT\D.IoT.Y\src\temp_server\views\layout.jade:12
+    10|     script(src='https://www.google.com/jsapi')
+    11|     script                
+  > 12|         google.load("visualization", "1", {packages:["corechart"]});
+    13|         //google.setOnLoadCallback(requestData);
+    14|         function requestData() {
+    15|             var xhr = new XMLHttpRequest();
+
+unexpected text ;
+   
+    at Object.Lexer.fail (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\lexer.js:872:11)
+    at Object.Lexer.next (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\lexer.js:931:15)
+    at Object.Lexer.lookahead (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\lexer.js:113:46)
+    at Parser.lookahead (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:102:23)
+    at Parser.peek (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:79:17)
+    at Parser.tag (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:751:22)
+    at Parser.parseTag (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:737:17)
+    at Parser.parseExpr (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:211:21)
+    at Parser.block (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:707:25)
+    at Parser.tag (C:\workspace\IoT\D.IoT.Y\src\temp_server\node_modules\jade\lib\parser.js:816:24)
